@@ -17,7 +17,7 @@ jobs:
     - name: Setup .NET SDK
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: '9.0.x'   # Đặt version phù hợp với dự án của bạn
+        dotnet-version: '8.0.x'   # Đặt version phù hợp với dự án của bạn
 
     - name: Restore dependencies
       run: dotnet restore
